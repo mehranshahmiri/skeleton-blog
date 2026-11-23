@@ -60,6 +60,14 @@ Bundled resources:
 * normalize.css (css/normalize.css), Copyright Nicolas Gallagher and Jonathan Neal, MIT License.
 * Raleway font (assets/fonts), Copyright The Raleway Project Authors, SIL Open Font License 1.1.
 
+== Resources ==
+
+* screenshot.png: original work by Mehran Shahmiri (the artwork in it was generated for this theme), released under the GPL v2 or later, like the theme.
+* No other images are bundled with the theme.
+* Fonts: Raleway, SIL Open Font License 1.1 (assets/fonts/).
+* CSS: Skeleton by Dave Gamache, MIT (css/skeleton.css); normalize.css, MIT (css/normalize.css).
+* Everything else is original code under the GPL v2 or later.
+
 == Changelog ==
 
 = 1.1.0 =

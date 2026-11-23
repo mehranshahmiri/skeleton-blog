@@ -718,8 +718,12 @@ function skeleton_blog_on_color( $hex ) {
  * @return string
  */
 function skeleton_blog_link_color( $hex ) {
-	for ( $i = 0; $i < 40 && skeleton_blog_contrast( $hex, '#ffffff' ) < 4.5; $i++ ) {
-		$hex = skeleton_blog_darken( $hex, 4 );
+	$tries = 0;
+	$ratio = skeleton_blog_contrast( $hex, '#ffffff' );
+	while ( $ratio < 4.5 && $tries < 40 ) {
+		$hex   = skeleton_blog_darken( $hex, 4 );
+		$ratio = skeleton_blog_contrast( $hex, '#ffffff' );
+		++$tries;
 	}
 	return $hex;
 }
@@ -731,8 +735,8 @@ function skeleton_blog_dynamic_css() {
 	$accent = sanitize_hex_color( skeleton_blog_get( 'accent', '#33C3F0' ) );
 	$css    = '';
 	if ( $accent && '#33c3f0' !== strtolower( $accent ) ) {
-		$link  = skeleton_blog_link_color( $accent );
-		$css  .= ':root{--sb-accent:' . $accent . ';--sb-accent-dark:' . skeleton_blog_darken( $accent, 12 ) . ';--sb-on-accent:' . skeleton_blog_on_color( $accent ) . ';--sb-link:' . $link . ';--sb-link-hover:' . skeleton_blog_darken( $link, 18 ) . '}';
+		$link = skeleton_blog_link_color( $accent );
+		$css .= ':root{--sb-accent:' . $accent . ';--sb-accent-dark:' . skeleton_blog_darken( $accent, 12 ) . ';--sb-on-accent:' . skeleton_blog_on_color( $accent ) . ';--sb-link:' . $link . ';--sb-link-hover:' . skeleton_blog_darken( $link, 18 ) . '}';
 	}
 	$bg = get_background_color();
 	if ( $bg && 'ffffff' !== strtolower( $bg ) && 'light' === skeleton_blog_get( 'color_scheme', 'light' ) ) {
