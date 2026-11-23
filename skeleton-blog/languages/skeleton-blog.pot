@@ -1,0 +1,358 @@
+# Skeleton Blog translation template.
+# Copyright (C) 2026 Mehran Shahmiri
+# This file is distributed under the same license as the Skeleton Blog package.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Skeleton Blog 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 00:14+0530\n"
+"PO-Revision-Date: 2026-11-24 00:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: 404.php:19
+msgid "That page cannot be found"
+msgstr ""
+
+#: 404.php:20
+msgid "It may have moved or never existed. Try a search, or head back home."
+msgstr ""
+
+#: 404.php:22
+msgid "Back to the blog"
+msgstr ""
+
+#: archive.php:40 author.php:46 index.php:39
+msgid "&larr; Newer"
+msgstr ""
+
+#: archive.php:41 author.php:47 index.php:40
+msgid "Older &rarr;"
+msgstr ""
+
+#: attachment.php:42
+msgid "Download the file"
+msgstr ""
+
+#: author.php:28
+#, php-format
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:25
+#, php-format
+msgid "%1$s comment on \"%2$s\""
+msgid_plural "%1$s comments on \"%2$s\""
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:49
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:20
+msgid "Footer"
+msgstr ""
+
+#: footer.php:57
+#, php-format
+msgid ""
+"%1$s theme by %2$s, free and open source. Built on %3$s by Dave Gamache."
+msgstr ""
+
+#: front-page.php:32 page-templates/full-width.php:36
+#: page-templates/landing.php:28 page.php:41 single.php:74
+msgid "Edit"
+msgstr ""
+
+#: front-page.php:49 index.php:19
+msgid "Latest posts"
+msgstr ""
+
+#: front-page.php:60
+msgid "All posts"
+msgstr ""
+
+#: functions.php:71 functions.php:771
+msgid "Primary menu"
+msgstr ""
+
+#: functions.php:72 functions.php:775
+msgid "Footer menu"
+msgstr ""
+
+#: functions.php:73 functions.php:779
+msgid "Social links menu"
+msgstr ""
+
+#: functions.php:93 sidebar.php:16
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:95
+msgid ""
+"Shown beside the content when the layout is set to \"Content with sidebar\" "
+"in the Customizer."
+msgstr ""
+
+#: functions.php:104
+msgid "Footer widgets"
+msgstr ""
+
+#: functions.php:106
+msgid "Appears above the footer. Widgets sit in a row on wide screens."
+msgstr ""
+
+#: functions.php:173
+msgid "Home"
+msgstr ""
+
+#: functions.php:222
+msgid "Leave a comment"
+msgstr ""
+
+#: functions.php:223
+msgid "Comment"
+msgstr ""
+
+#: functions.php:268 single.php:41
+#, php-format
+msgid "%d min read"
+msgid_plural "%d min read"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:295
+msgid "Skeleton Blog"
+msgstr ""
+
+#: functions.php:310
+msgid "Show the hero on the home page"
+msgstr ""
+
+#: functions.php:326
+msgid "Hero text"
+msgstr ""
+
+#: functions.php:327
+msgid "Leave empty to use the site tagline."
+msgstr ""
+
+#: functions.php:336 functions.php:584
+msgid "Read the latest"
+msgstr ""
+
+#: functions.php:343
+msgid "Hero button label (empty hides it)"
+msgstr ""
+
+#: functions.php:359
+msgid "Hero button link"
+msgstr ""
+
+#: functions.php:360
+msgid "Leave empty to link to the latest post."
+msgstr ""
+
+#: functions.php:376
+msgid "Show reading time"
+msgstr ""
+
+#: functions.php:392
+msgid "Show the author box under posts"
+msgstr ""
+
+#: functions.php:408
+msgid "Footer text"
+msgstr ""
+
+#: functions.php:424
+msgid "Layout"
+msgstr ""
+
+#: functions.php:428
+msgid "Single column"
+msgstr ""
+
+#: functions.php:429
+msgid "Content with sidebar"
+msgstr ""
+
+#: functions.php:444
+msgid "Colour scheme"
+msgstr ""
+
+#: functions.php:448
+msgid "Light"
+msgstr ""
+
+#: functions.php:449
+msgid "Dark"
+msgstr ""
+
+#: functions.php:450
+msgid "Follow the visitor's device"
+msgstr ""
+
+#: functions.php:467
+msgid "Accent colour"
+msgstr ""
+
+#: functions.php:483
+msgid "Show the theme credit in the footer"
+msgstr ""
+
+#: functions.php:621
+#, php-format
+msgid "&copy; %1$s %2$s."
+msgstr ""
+
+#: header.php:20
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:22
+msgid "Primary"
+msgstr ""
+
+#: page.php:35 single.php:65
+msgid "Pages:"
+msgstr ""
+
+#: patterns/call-to-action-band.php:14
+msgid "Stay in the loop"
+msgstr ""
+
+#: patterns/call-to-action-band.php:18
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr ""
+
+#: patterns/call-to-action-band.php:23
+msgid "Subscribe"
+msgstr ""
+
+#: patterns/hero-call-to-action.php:14
+msgid "A calm, simple headline"
+msgstr ""
+
+#: patterns/hero-call-to-action.php:18
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor incididunt ut labore."
+msgstr ""
+
+#: patterns/hero-call-to-action.php:23
+msgid "Get started"
+msgstr ""
+
+#: patterns/pull-quote.php:14
+msgid "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet."
+msgstr ""
+
+#: patterns/pull-quote.php:15
+msgid "Someone Wise"
+msgstr ""
+
+#: patterns/three-features.php:15
+msgid "Lorem ipsum"
+msgstr ""
+
+#: patterns/three-features.php:19
+msgid "Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+msgstr ""
+
+#: patterns/three-features.php:25
+msgid "Dolor sit"
+msgstr ""
+
+#: patterns/three-features.php:29
+msgid "Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+msgstr ""
+
+#: patterns/three-features.php:35
+msgid "Amet elit"
+msgstr ""
+
+#: patterns/three-features.php:39
+msgid "Duis aute irure dolor in reprehenderit in voluptate velit."
+msgstr ""
+
+#: search.php:22
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: search.php:43
+msgid "&larr; Previous"
+msgstr ""
+
+#: search.php:44
+msgid "Next &rarr;"
+msgstr ""
+
+#: searchform.php:15
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:18
+msgctxt "placeholder"
+msgid "Search&hellip;"
+msgstr ""
+
+#: searchform.php:21
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: single.php:34
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: single.php:57
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: single.php:73
+msgid "Tagged: "
+msgstr ""
+
+#: single.php:90
+msgid "&larr; Older"
+msgstr ""
+
+#: single.php:91
+msgid "Newer &rarr;"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing found"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Nothing matched your search. Try different words."
+msgstr ""
+
+#: template-parts/content-none.php:23
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we cannot find what you are looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content.php:39
+msgid "Read"
+msgstr ""

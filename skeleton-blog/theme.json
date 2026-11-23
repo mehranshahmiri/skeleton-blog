@@ -1,0 +1,44 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{ "slug": "accent", "name": "Accent", "color": "#33C3F0" },
+				{ "slug": "accent-dark", "name": "Accent dark", "color": "#1EAEDB" },
+				{ "slug": "text", "name": "Text", "color": "#222222" },
+				{ "slug": "muted", "name": "Muted", "color": "#777777" },
+				{ "slug": "border", "name": "Border", "color": "#EEEEEE" },
+				{ "slug": "white", "name": "White", "color": "#FFFFFF" }
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"slug": "raleway",
+					"name": "Raleway",
+					"fontFamily": "Raleway, HelveticaNeue, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Raleway",
+							"fontStyle": "normal",
+							"fontWeight": "300 600",
+							"src": [ "file:./assets/fonts/raleway-latin.woff2" ]
+						}
+					]
+				}
+			],
+			"fontSizes": [
+				{ "slug": "small", "name": "Small", "size": "1.4rem" },
+				{ "slug": "normal", "name": "Normal", "size": "1.8rem" },
+				{ "slug": "large", "name": "Large", "size": "2.6rem" },
+				{ "slug": "x-large", "name": "Extra large", "size": "4rem" }
+			]
+		},
+		"layout": {
+			"contentSize": "800px",
+			"wideSize": "1100px"
+		}
+	}
+}
